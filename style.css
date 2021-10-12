@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* TO use Box Model  */
+}
+
+body{
+    background-color: #ebf2ff;
+    
+}
+
+.container{
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+
+@media (min-width:768px){
+
+}
+
+@media (min-width:1200px){
+    .container{
+        max-width: auto;
+        margin: 0 auto;
+    }
+}
